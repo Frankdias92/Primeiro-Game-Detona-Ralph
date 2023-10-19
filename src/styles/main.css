@@ -1,10 +1,27 @@
-@import url(./global.css);
-
-.container {
-  display: flex;
-}
+@import url("./global.css");
 
 .menu {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+/* Bloco Princinpal */
+#gridMenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+
+/* Bloco Player */
+#infoRalph {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
 }
