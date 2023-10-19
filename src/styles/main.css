@@ -1,0 +1,10 @@
+@import url(./global.css);
+
+.container {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
