@@ -1,0 +1,37 @@
+/* GENERAL PAGE TRANSITION */
+
+a {
+  text-decoration: none;
+}
+
+.current {
+  opacity: 1 !important;
+  position: absolute;
+  z-index: 3 !important;
+}
+#page1,
+#page2 {
+  opacity: 0;
+}
+
+.move-from-top {
+  -webkit-animation: moveFromTop 0.7s ease both;
+  -moz-animation: moveFromTop 0.7s ease both;
+  animation: moveFromTop 0.7s ease both;
+}
+
+@-webkit-keyframes moveFromTop {
+  from {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes moveFromTop {
+  from {
+    -moz-transform: translateY(-100%);
+  }
+}
+@keyframes moveFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+}

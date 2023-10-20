@@ -1,4 +1,6 @@
 @import url("./global.css");
+@import url("./pages.css");
+@import url("./reset.css");
 
 #menu {
   display: flex;
