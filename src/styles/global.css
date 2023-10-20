@@ -2,10 +2,23 @@
 
 @import url("./reset.css");
 
+:root {
+  --color-bg: #050B19;
+  --font-primary: #fff;
+  --secondary-color: #FEDC34;
+  --color-logo: #C92935;
+}
+
 body {
   display: flex;
   flex-direction: column;
   width: 375px;
   height: 812px;
+  background-color: var(--color-bg);
+  color: var(--font-primary);
+  margin: 0 1.438rem 1.25rem;
 }
-
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
