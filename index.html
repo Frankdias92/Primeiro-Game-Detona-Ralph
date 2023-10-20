@@ -10,7 +10,11 @@
   <title>Detona Ralph</title>
 </head>
 <body>
-  <nav id="menu">
+  <main>
+    <button onclick="hidenMain()"></button>
+  </main>
+
+  <nav id="menu" class="container">
     <div class="logo">
       <img src="./src/imgs/logotipoRalph.png" alt="Logotipo do Jogo Ralph">
     </div>
@@ -25,47 +29,41 @@
     </div>
   </nav>
 
-  <section id="gridMenu">
-    <div class="cards Box1">
-      <div class="cardBoxWindow">
-      </div>
+  <section id="gridMenu" class="container">
+    <div class="cards">
+      <div class="cardBoxWindow" id="box1"></div>
     </div>
 
-    <div class="cards Box2">
-      <div class="cardBoxWindow">
-      </div>
+    <div class="cards">
+      <div class="cardBoxWindow" id="box2"></div>
     </div>
 
-    <div class="cards Box3">
-      <div class="cardBoxWindow">
-      </div>
+    <div class="cards">
+      <div class="cardBoxWindow" id="box3"></div>
     </div>
 
-    <div class="cards Box4">
-      <div class="cardBoxWindow  wreck">
-      </div>
+    <div class="cards">
+      <div class="cardBoxWindow wreck" id="box4"></div>
     </div>
 
-    <div class="cards Box5">
-      <div class="cardBoxWindow">
-      </div>
+    <div class="cards">
+      <div class="cardBoxWindow" id="box5"></div>
     </div>
 
-    <div class="cards Box6">
-      <div class="cardBoxWindow">
-      </div>
+    <div class="cards">
+      <div class="cardBoxWindow" id="box6"></div>
     </div>
   </section>
 
-  <section id="infoRalph">
+  <section id="infoRalph" class="container">
     <div class="wrap">
       <h2>Time Left</h2>
-      <h2>time</h2>
+      <h2 id="time-left">0</h2>
     </div>
 
     <div class="wrap">
       <h2>Your Score</h2>
-      <h2>300</h2>
+      <h2 id="score">0</h2>
     </div>
 
     <div class="wrap playerPhoto">
@@ -74,7 +72,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer class="container">
     <p>Criado por @Franklin Macedo</p>
   </footer>
 
