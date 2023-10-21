@@ -11,8 +11,6 @@
 
 body {
   display: flex;
-  width: 100vh;
-
   justify-content: center;
 
   background-color: var(--color-bg);
@@ -28,19 +26,20 @@ body {
   margin: auto;
 }
 
-.wrapper {
-  position: relative;
-}
-
-
-
 @media screen and (min-width: 240px) and (max-width: 3480px) {
-  .wrapper,
+  
+  .pages,
   .page1,
   .page2 {
-    width: 540px;
-    height: 100vh;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 540px;
+
+    align-items: center;
+    position: absolute;
+    padding: 2.438rem 0;
+
   }
 
 

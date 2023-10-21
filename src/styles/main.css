@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0 2.5rem;
 }
 .logo img {
   width: 4.821rem;
@@ -50,7 +51,7 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  gap: 0.938rem;
+  gap: 3rem;
   margin: auto;
 }
 #infoRalph h1 {
@@ -81,6 +82,7 @@ footer p {
   justify-content: center;
   font-size: xx-small;
   color: var(--color-logo);
+  margin-bottom: 15px;
 }
 
 
