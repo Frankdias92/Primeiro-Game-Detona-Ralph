@@ -1,13 +1,11 @@
 @import url("./global.css");
-@import url("./pages.css");
-@import url("./reset.css");
+@import url("./pageGame.css");
 
 #menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 1.438rem 1.25rem;
 }
 .logo img {
   width: 4.821rem;
@@ -26,7 +24,7 @@
   margin: auto;
   width: auto;
   gap: .938rem;
-  padding: 2.688rem 1.688rem;
+  padding: 1.688rem 1.688rem;
 }
 
 .cardBoxWindow {

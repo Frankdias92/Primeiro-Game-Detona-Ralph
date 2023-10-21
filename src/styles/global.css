@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap');
-
+@import url("./pages.css");
 @import url("./reset.css");
 
 :root {
@@ -11,14 +11,29 @@
 
 body {
   display: flex;
-  flex-direction: column;
-  width: 375px;
-  height: 812px;
-  background-color: var(--color-bg);
+  width: 100vh;
+
+  justify-content: center;
+
+  /* background-color: var(--color-bg); */
   color: var(--font-primary);
   margin: 0 1.438rem 1.25rem;
+
 }
 .wrap {
   display: flex;
   flex-direction: column;
 }
+.pages {
+  margin: auto;
+}
+
+
+/* 
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+} */

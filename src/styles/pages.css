@@ -9,10 +9,40 @@ a {
   position: absolute;
   z-index: 3 !important;
 }
+.pages {
+  display: flex;
+}
+
+
 #page1,
 #page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
+  width: 23.438rem;
+  height: 50.75rem;
+  margin: auto;
+
+  
 }
+
+#page1 {
+  z-index: 2;
+}
+#page2 {
+  z-index: 1;
+}
+
+#pageGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
 
 .move-from-top {
   -webkit-animation: moveFromTop 0.7s ease both;
