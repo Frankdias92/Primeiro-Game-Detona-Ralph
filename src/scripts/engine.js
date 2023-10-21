@@ -40,7 +40,7 @@ function randomCard() {
     cardBoxWindow.classList.remove('wreck');
   });
 
-  let randomNumber = Math.floor(Math.random() * 6)
+  let randomNumber = Math.floor(Math.random() * 9)
   let randomBox = state.view.boxes[randomNumber]
   randomBox.classList.add('wreck');
   state.values.hitPosition = randomBox.id;

@@ -15,7 +15,7 @@ body {
 
   justify-content: center;
 
-  /* background-color: var(--color-bg); */
+  background-color: var(--color-bg);
   color: var(--font-primary);
   margin: 0 1.438rem 1.25rem;
 
@@ -28,12 +28,20 @@ body {
   margin: auto;
 }
 
-
-/* 
-@media screen and (max-width: 375px) {
-
+.wrapper {
+  position: relative;
 }
 
-@media screen and (max-width: 375px) {
 
-} */
+
+@media screen and (min-width: 240px) and (max-width: 3480px) {
+  .wrapper,
+  .page1,
+  .page2 {
+    width: 540px;
+    height: 100vh;
+    margin: auto;
+  }
+
+
+}

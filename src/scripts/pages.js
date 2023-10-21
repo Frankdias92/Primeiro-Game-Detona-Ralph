@@ -1,39 +1,20 @@
 /* Page Transitions Function */
 
-$(function () {
-  $('.nav-1-next').click(function () {
+$(document).ready(function () {
+  $('#trocarPagina').click(function () {
+    $( '.page1' ).addClass( 'move-from-top-saida' )
+    .css( 'opacity', '0' );
+   
 
-    if ($('.pages .background .background').eq(0).hasClass('current')) {
-      return false
-    } else {
-      $('.pages .background')
-        .addClass(
-          'move-from-top'
-        )
-        .css({ opacity: '0', 'z-index': '0' })
-      $('.current').is(function () {
-        $(this).removeClass('current')
-        $(this).css('opacity', '1')
-      })
-      $('.pages .background')
-        .eq(-2)
-        .addClass('current move-from-top')
-        .css('opacity', '1')
-    }
-  })
+   setTimeout( function () {
+    $( '.page1' ).removeClass( 'move-from-top-entrada' )
+    .css( 'opacity', '1' );
+    $( '.page2' ).addClass( 'move-from-top-saida' )
+    .css( 'opacity', '1' );
+    $( '#pageGame').css( 'opacity', '0' );
 
-  $('.nav-2-next').click(function () {
-    if ( $('.pages .background:eq(-2)').hasClass('current') ) {
-      if ( $('.pages .background').eq().hasClass('current') ) {
-        return false
-      } else {
-        $('.pages .background')
-          .eq(-1)
-          .removeClass('fold-bottom')
-          .addClass('current move-from-top')
-          .css('opacity', '1')
-      }
-    }
-  })
+   },700)
 
-})
+  });
+
+});

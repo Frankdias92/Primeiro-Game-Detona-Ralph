@@ -4,17 +4,33 @@ a {
   text-decoration: none;
 }
 
-.current {
+/* .current {
   opacity: 1 !important;
   position: absolute;
   z-index: 3 !important;
-}
+} */
+
 .pages {
-  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.7s ease;
+  z-index: 1;
+}
+.page1 {
+  z-index: 2;
+  padding: 1.438rem 0;
+}
+.page2 {
+  z-index: 3;
+  opacity: 0;
+  padding: 1.438rem 0;
 }
 
-
-#page1,
+/* #page1,
 #page2 {
   display: flex;
   justify-content: center;
@@ -23,45 +39,40 @@ a {
   width: 23.438rem;
   height: 50.75rem;
   margin: auto;
+} */
 
-  
-}
-
-#page1 {
-  z-index: 2;
-}
-#page2 {
-  z-index: 1;
-}
 
 #pageGame {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   margin: auto;
+  background-color: var(--color-bg);
 }
 
 
-.move-from-top {
-  -webkit-animation: moveFromTop 0.7s ease both;
-  -moz-animation: moveFromTop 0.7s ease both;
-  animation: moveFromTop 0.7s ease both;
+.move-from-top-entrada {
+  animation: moveFromTopEntrada 0.7s ease both;
+}
+.move-from-top-saida {
+  animation: moveFromTopSaida 0.7s ease both;
 }
 
-@-webkit-keyframes moveFromTop {
-  from {
-    -webkit-transform: translateY(-100%);
-  }
-}
-@-moz-keyframes moveFromTop {
-  from {
-    -moz-transform: translateY(-100%);
-  }
-}
-@keyframes moveFromTop {
+@keyframes moveFromTopEntrada {
   from {
     transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes moveFromTopSaida {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
   }
 }
