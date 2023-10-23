@@ -140,25 +140,43 @@ a {
   color: var(--font-primary);
   border-radius: 27%;
   text-decoration: none;
-  transition: background-color 150ms ease-in-out;
+  transition: 150ms ease-in-out;
+  background-color: var(--secondary-color);
   margin-right: 0.1rem;
 }
 
-.icon--linkedin::before {
-  content: '\000'; /* Unicode value for the twitter icon in our chosen icon font */
-}
-
-.icon--pintrest::before {
-  content: '\f231'; /* Unicode value for the pintrest icon in our chosen icon font */
-}
-
 .social-button--linkedin {
-  background-color: #4b70ab;
+  background-image: url("https://img.icons8.com/windows/256/linkedin-2.png");
+  background-size: cover;
+
+  
+}
+
+.social-button--gmail {
+  background-image: url("https://img.icons8.com/windows/256/gmail.png");
+  background-size: cover;
+}
+
+.social-button--gitHub {
+  background-image: url("https://img.icons8.com/windows/256/github.png");
+  background-size: cover;
 }
 
 .social-button--linkedin:hover {
-  background-color: #3f5f91;
+  background-image: url("../imgs/socialIcones/icons8-linkedin-2.gif");
+  background-size: cover;
 }
+
+.social-button--gmail:hover {
+  background-image: url("../imgs/socialIcones/icons8-gmail.gif");
+  background-size: cover;
+}
+
+.social-button--gitHub:hover {
+  background-image: url("../imgs/socialIcones/icons8-github.gif");
+  background-size: cover;
+}
+
 
 /*
 
@@ -284,15 +302,17 @@ a {
   color: var(--secondary-color);
 }
 
+.fullscreen-menu p {
+  margin: 2.5rem 0 8.5rem;
+
+}
+
+
+
 .fullscreen-menu__nav {
   margin: 3rem 0;
 }
 
-.fullscreen-menu__nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 .fullscreen-menu__nav a {
   display: block;

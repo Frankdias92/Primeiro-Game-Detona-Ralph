@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap');
-@import url("./pages.css");
-@import url("./reset.css");
+@import url('./pages.css');
+@import url('./reset.css');
 
 :root {
-  --color-bg: #050B19;
+  --color-bg: #050b19;
   --font-primary: #fff;
-  --secondary-color: #FEDC34;
-  --color-logo: #C92935;
+  --secondary-color: #fedc34;
+  --color-logo: #c92935;
 }
 
 body {
@@ -16,7 +16,6 @@ body {
   background-color: var(--color-bg);
   color: var(--font-primary);
   margin: 0 1.438rem 1.25rem;
-
 }
 .wrap {
   display: flex;
@@ -27,7 +26,6 @@ body {
 }
 
 @media screen and (min-width: 240px) and (max-width: 3480px) {
-  
   .pages,
   .page1,
   .page2 {
@@ -39,8 +37,27 @@ body {
     align-items: center;
     position: absolute;
     padding: 2.438rem 0;
-
   }
+}
 
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9 {
+  transition: 150ms ease-in-out;
+}
 
+.wreck:hover {
+  transform: scale(110%);
+  background-image: url('../imgs/wreck.gif');
+  background-size: cover;
+  background-position: center center;
+  transform: scale(120%);
+  border-radius: 50%;
+  box-shadow: 0px 0px 17px 6px #000;
 }

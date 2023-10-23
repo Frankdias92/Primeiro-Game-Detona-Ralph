@@ -30,7 +30,7 @@
             />
           </div>
   
-          <button id="trocarPagina">Vamos Jogar!</button>
+          <button id="trocarPagina" onclick="init()">Vamos Jogar!</button>
         </section>
   
         <div class="pages page2">
@@ -59,15 +59,21 @@
                   <div class="fullscreen-menu__image-container"></div>
           
                   <h1 class="fullscreen-menu__title">
-                    Fala player! fique a vontade em me seguir nas minhas redes.
+                    Fala player! fique a vontade para me seguir nas minhas redes.
                   </h1>
           
                   <p>
                     Projeto desenvolvido para fins de portifolio pessoal.
                   </p>
 
-                  <a target="_blank" href="https://twitter.com/matchboxhero10" class="social-button--linkedin">
-                    <i class="icon--linkedin"></i>
+                  <a target="_blank" href="https://www.linkedin.com/in/franklinmacedodias" class="social-button--gmail">
+                  </a>
+
+                  
+                  <a target="_blank" href="https://www.linkedin.com/in/franklinmacedodias" class="social-button--gitHub">
+                  </a>
+                  
+                  <a target="_blank" href="https://www.linkedin.com/in/franklinmacedodias" class="social-button--linkedin">
                   </a>
                 </div>
           
@@ -92,39 +98,39 @@
 
             <section id="gridMenu">
               <div class="cards">
-                <div class="cardBoxWindow" id="box1"></div>
+                <div class="cardBoxWindow box" id="box1"></div>
               </div>
   
               <div class="cards">
-                <div class="cardBoxWindow" id="box2"></div>
+                <div class="cardBoxWindow box" id="box2"></div>
               </div>
   
               <div class="cards">
-                <div class="cardBoxWindow" id="box3"></div>
+                <div class="cardBoxWindow box" id="box3"></div>
               </div>
   
               <div class="cards">
-                <div class="cardBoxWindow wreck" id="box4"></div>
+                <div class="cardBoxWindow box wreck" id="box4"></div>
               </div>
   
               <div class="cards">
-                <div class="cardBoxWindow" id="box5"></div>
+                <div class="cardBoxWindow box" id="box5"></div>
               </div>
   
               <div class="cards">
-                <div class="cardBoxWindow" id="box6"></div>
+                <div class="cardBoxWindow box" id="box6"></div>
               </div>
 
               <div class="cards">
-                <div class="cardBoxWindow" id="box7"></div>
+                <div class="cardBoxWindow box" id="box7"></div>
               </div>
 
               <div class="cards">
-                <div class="cardBoxWindow" id="box8"></div>
+                <div class="cardBoxWindow box" id="box8"></div>
               </div>
 
               <div class="cards">
-                <div class="cardBoxWindow" id="box9"></div>
+                <div class="cardBoxWindow box" id="box9"></div>
               </div>
             </section>
   
@@ -140,7 +146,7 @@
               </div>
   
               <div class="wrap playerPhoto">
-                <h1>x3</h1>
+                <p>Lv<h1 id="LevelP">1</h1></p>
                 <img
                   class=""
                   src="./src/imgs/foto-do-jogador-Ralph.png"
