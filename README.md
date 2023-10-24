@@ -1,5 +1,13 @@
+<a name="readme-top"></a>
 
 # Projeto "Game-DetonaRalph"
+
+<div align="center">
+  <a href="https://www.figma.com/file/3drzJuNX12azkBNFzed6uH/Ralph-Game-Project?type=design&node-id=34-90&mode=design">
+    <img src="./src/imgs/preview/Cover.png" alt="Logo">
+  </a>
+</div>
+
 ### **Descrição Geral**
 O projeto "Detona Ralph" é um emocionante jogo de ação baseado na popular franquia de animação "Detona Ralph". Desenvolvido para fins de portfólio pessoal, este jogo desafia os jogadores a testar sua rapidez e habilidades de pontaria enquanto Ralph se move entre as janelas antes que o tempo acabe.
 
@@ -39,8 +47,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <a href = "frankmcdias@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23931?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a><a href="https://www.linkedin.com/in/franklinmacedodias" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
 
-Project Link: 
-<a href="https://github.com/Frankdias92/Primeiro-Game-Detona-Ralph" target="_blank"><img src="https://img.shields.io/badge/-Game%20Detona%20Ralph-000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+Project Link:<br><a href="https://github.com/Frankdias92/Primeiro-Game-Detona-Ralph" target="_blank"><img src="https://img.shields.io/badge/-Game%20Detona%20Ralph-000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,12 +85,12 @@ Project Link:
 [js.com]: https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[Renan Johannsen]: https://img.shields.io/badge/Renan%20Johannsen-Software%20Engineer%20Lead-000?style=for-the-badge
-[Michele Ambrosio]: https://img.shields.io/badge/Michele%20Ambrosio-Desenvolvedora%20Front%20End-000?style=for-the-badge
-[Elidiana Andrade]: https://img.shields.io/badge/Elidiana%20Andrade-Desenvolvedora%20Web-000?style=for-the-badge
-[Rafa Skoberg]: https://img.shields.io/badge/Rafa%20Skoberg-Game%20Development%20Expert-000?style=for-the-badge
-[Venilton]: https://img.shields.io/badge/Venilton%20FalvoJr-Education%20Tech%20Lead%20na%20DIO-000?style=for-the-badge
-[Template.com]: https://img.shields.io/badge/Best%20README%20Template-000?style=for-the-badge&
+[Renan Johannsen]: https://img.shields.io/badge/Renan%20Johannsen-Software%20Engineer%20Lead-fff?style=for-the-badge
+[Michele Ambrosio]: https://img.shields.io/badge/Michele%20Ambrosio-Desenvolvedora%20Front%20End-fff?style=for-the-badge
+[Elidiana Andrade]: https://img.shields.io/badge/Elidiana%20Andrade-Desenvolvedora%20Web-fff?style=for-the-badge
+[Rafa Skoberg]: https://img.shields.io/badge/Rafa%20Skoberg-Game%20Development%20Expert-fff?style=for-the-badge
+[Venilton]: https://img.shields.io/badge/Venilton%20FalvoJr-Education%20Tech%20Lead%20na%20DIO-fff?style=for-the-badge
+[Template.com]: https://img.shields.io/badge/Best%20README%20Template-fff?style=for-the-badge&
 [Template.url]: https://github.com/othneildrew/Best-README-Template/blob/master/README.md
-[DIO.com]: https://img.shields.io/badge/DIO%20--%20digital%20innovation%20one-000?style=for-the-badge&
+[DIO.com]: https://img.shields.io/badge/DIO%20--%20digital%20innovation%20one-058?style=for-the-badge&
 [DIO.url]: https://web.dio.me/home
